@@ -33,7 +33,7 @@ if(!isset($_SESSION['UserData']['Username'])){
                 <p class="text-center">Paragraph</p><a class="btn btn-success btn-block" role="button" href="#">Button</a></div>
             <div class="col-md-4 item">
                 <h2 class="text-center">Subsonic Music</h2>
-                <p class="text-center">Custom music libary</p><a class="btn btn-success btn-block" role="button" href="https://james.glideservers.com:4040">Subsonic </a></div>
+                <p class="text-center">Custom music libary</p><a class="btn btn-success btn-block" role="button" href="http://james.glideservers.com:4040">Subsonic </a></div>
         </div>
         <div class="row top-buffer">
             <div class="col-md-4 item">
