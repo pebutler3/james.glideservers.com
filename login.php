@@ -28,190 +28,42 @@ include ('config.php');
     <meta name="author" content="">
     <link rel="icon" href="https://www.glideservers.com/favicon.ico">
     <title>Signin To James Dev</title>
-
-
-
-
-
-
-
     <!-- Bootstrap core CSS -->
-
-
-
     <link href="bootstrap.min.css" rel="stylesheet">
-
-
-
-
-
-
-
     <!-- Custom styles for this template -->
-
-
-
     <link href="signin.css" rel="stylesheet">
-
-
-
   </head>
-
-
-
-
-
-
-
   <body>
-
-
-
-
-
-
-
     <div class="container">
-
-
-
-
-
-
-
-<form action="" method="post" name="Login_Form">
-
-
-
-  <table width="400" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">
-
-
-
+    <form action="" method="post" name="Login_Form">
+    <table width="400" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">
     <?php if(isset($msg)){?>
-
-
-
     <tr>
-
-
-
       <td colspan="2" align="center" valign="top"><?php echo $msg;?></td>
-
-
-
     </tr>
-
-
-
     <?php } ?>
-
-
-
     <tr>
-
-
-
       <td colspan="2" align="left" valign="top"><h3>Login</h3></td>
-
-
-
     </tr>
-
-
-
     <tr>
-
-
-
       <td align="right" valign="top">Username</td>
-
-
-
       <td><input name="Username" type="text" class="Input"></td>
-
-
-
     </tr>
-
-
-
     <tr>
-
-
-
       <td align="right">Password</td>
-
-
-
       <td><input name="Password" type="password" class="Input"></td>
-
-
-
     </tr>
-
-
-
     <tr>
-
-
-
     <td> </td>
-
-
-
-
-
-
-
       <td><input name="Submit" type="submit" value="Login" class="Button3"></td>
-
-
-
     </tr>
-
-
-
   </table>
-
-
-
 </form>
-
-
-
-    </div> <!-- /container -->
-
-
-
-
-
-
-
-    <!-- Bootstrap core JavaScript
-
-
-
+</div> <!-- /container -->
+<!-- Bootstrap core JavaScript
     ================================================== -->
-
-
-
     <!-- Placed at the end of the document so the pages load faster -->
-
-
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-
-
-
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-
-
   </body>
-
-
-
 </html>
-
-
-
