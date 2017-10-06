@@ -29,8 +29,8 @@ if(!isset($_SESSION['UserData']['Username'])){
                 <h2 class="text-center">Heading</h2>
                 <p class="text-center">Paragraph</p><a class="btn btn-success btn-block" role="button" href="#">Button</a></div>
             <div class="col-md-4 item">
-                <h2 class="text-center">Heading</h2>
-                <p class="text-center">Paragraph</p><a class="btn btn-success btn-block" role="button" href="#">Button</a></div>
+                <h2 class="text-center">Flight Tracker</h2>
+                <p class="text-center">PiAware, tracking planes!</p><a class="btn btn-success btn-block" role="button" href="http://james.glideservers.com:8080/">PiAware</a></div>
             <div class="col-md-4 item">
                 <h2 class="text-center">Subsonic Music</h2>
                 <p class="text-center">Custom music libary</p><a class="btn btn-success btn-block" role="button" href="http://james.glideservers.com:4040">Subsonic </a></div>
