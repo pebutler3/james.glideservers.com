@@ -26,8 +26,8 @@ if(!isset($_SESSION['UserData']['Username'])){
     <div class="container-fluid" style="background-color:#22232a;width:93%;height:100%;">
         <div class="row">
             <div class="col-md-4 item">
-                <h2 class="text-center">Heading</h2>
-                <p class="text-center">Paragraph</p><a class="btn btn-success btn-block" role="button" href="#">Button</a></div>
+               <h2 class="text-center">Munin</h2> 
+     	       <p class="text-center">Server monitoring</p><a class="btn btn-success btn-block" role="button" href="https://james.glideservers.com/munin/">Button</a></div>
             <div class="col-md-4 item">
                 <h2 class="text-center">Flight Tracker</h2>
                 <p class="text-center">PiAware, tracking planes!</p><a class="btn btn-success btn-block" role="button" href="http://james.glideservers.com:8080/">PiAware</a></div>
